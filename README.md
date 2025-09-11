@@ -1,5 +1,5 @@
 
-# Vanilla Calculator
+# Calculator
 
 A simple calculator built with pure HTML, CSS, and JavaScript.
 
