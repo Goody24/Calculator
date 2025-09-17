@@ -56,5 +56,8 @@ Our focus lies in preventing software defects from ever occurring. We achieve th
 alert("Hello, World!");
 console.log("Hello from the console!");
 ```
+<<<<<<< HEAD
 
 kavinoqacademy.com
+=======
+>>>>>>> cbf791ee7d3308ef34b548cbc3da21fb8d7c51b6
