@@ -1,5 +1,5 @@
 # Software Testing Strategy & Workflow
- <goodycyberworld@gmail.com>
+ [emails us on](goodycyberworld@gmail.com)
 
 __Introduction__
 -
