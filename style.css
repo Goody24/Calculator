@@ -5,13 +5,32 @@ body {
   height: 100vh;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
   margin: 0;
+  transition: background 0.3s, color 0.3s;
+  position: relative;
 }
+
+
+#theme-toggle {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border:none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #333;
+  color: #fff;
+  font-size: 1rem;
+  position: absolute;
+  top: 20px;
+  right: 20px
+}
+
 .calculator {
   width: 320px;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.2);
   overflow: hidden;
+  transition: background 0.3s, color 0.3s;
 }
 .display input {
   width: 100%;
@@ -43,4 +62,33 @@ body {
 }
 .zero {
   grid-column: span 2;
+}
+
+/* 🌙 Dark Mode */
+body.dark-mode {
+  background: linear-gradient(135deg, #000000, #434343);
+  color: #fff;
+}
+body.dark-mode #theme-toggle {
+  background: #eee;
+  color: #000;
+}
+body.dark-mode .calculator {
+  background: #1e1e1e;
+  color: #fff;
+}
+body.dark-mode .display input {
+  background: #111;
+  color: #0f0;
+}
+body.dark-mode .btn {
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+body.dark-mode .operator {
+  background: #f57c00;
+}
+body.dark-mode .equal {
+  background: #2e7d32;
 }
